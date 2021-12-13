@@ -10,4 +10,6 @@ interface ApiHelper {
 
     suspend fun getUsersWithError(): List<ApiUser>
 
+    suspend fun deleteUser(): List<ApiUser>
+
 }
